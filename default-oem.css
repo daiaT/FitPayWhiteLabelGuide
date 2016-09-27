@@ -378,11 +378,16 @@ body {
 }
 
 .loader {
-    background: url(images/rainbowLoad.gif) center;
+    background: url(https://daiat.github.io/FitPayWhiteLabelGuide/images/rainbowLoad.gif) center;
     height: 400px;
     margin-top: 35%;
 }
-
+.sync-loader {
+    background: url(images/rainbowLoad.gif) center no-repeat;
+    height: 200px;
+    margin-top: 35%;
+    border: 2 solid px
+}
 .walletAccess-page,
 .walletAccess-title {
     background: #1a1a1a;
