@@ -6,8 +6,8 @@ html, input, select, td, label {font:21px lato;color:#6B6B6B; font-weight: 300}
 /*section {background-color:#fff}*/
 
 input, select {margin-bottom:10px; padding:10px}
-input {color: #666;border-bottom: 1px solid #E8E8E8;border-radius: 5px; width:96%}
-form div {color:#8A8A8A; margin-bottom: 6px }
+input {color: #666;border-bottom: 1px solid #f00;border-radius: 5px; width:96%}
+form div {color:#1A1A1A; margin-bottom: 6px }
 form {background-color: #fcfcfc; padding:15px; border:1px solid #ccc; border-radius: 7px;background-color:#fdfdfd}
 select {-webkit-appearance: none; -moz-appearance: none; appearance: none;padding:7px; background: url(images/arrow.png) no-repeat right 10px center; background-color:#fff; color:#6B6B6B}
 button {background-color:#fff; border:0px solid #ccc;color:#ccc; cursor: pointer}
@@ -87,9 +87,9 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
 #expYear {width:34%}
 #title {
     font-size: 24px;
-    color: #666;
-    background-color: #eee;
-    border: 1px solid #ccc;
+    color: #555;
+    background-color: #1A1A1A;
+    border: 1px solid #555;
     padding: 5px;
     margin-bottom: -2px;
     border-radius: 5px;
@@ -111,15 +111,15 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
 }
 
 /* Login Style */
-#createAccount,#signIn, #requestPinReset  {display: inline-block; color: #666;font-size: 18px; text-decoration: none; cursor:pointer; margin-top: 20px}
+#createAccount,#signIn, #requestPinReset  {display: inline-block; color: #555;font-size: 18px; text-decoration: none; cursor:pointer; margin-top: 20px}
 
 #forgetMe {font:11px arial; color:#666; display:none}
 .footerLinks {text-align: center}
-.errorMsg {    color: #BF0000;font-size: 18px;font-weight: 400;margin-bottom: 10px;margin-left: 5px;}
+.errorMsg {    color: #BF0F24;font-size: 18px;font-weight: 400;margin-bottom: 10px;margin-left: 5px;}
 #nav {position: absolute;right: 0; top: 0; padding: 5px 10px; }
-#nav a {color:#8A8A8A; text-decoration: none; font-size: 18px}
+#nav a {color:#1a1a1a; text-decoration: none; font-size: 18px}
 .cheat {margin-right: 20px;}
-.cheat a {font-size:16px; font-weight:300; color: #9C9C9C;text-decoration: none;}
+.cheat a {font-size:16px; font-weight:300; color: #555;text-decoration: none;}
 .loading {text-align:center; width:100%; font-size:18px;}
 
 #activationMethods {border:0px;background-color: #fff; border-top:1px solid #ccc;width: 100%;}
@@ -131,11 +131,11 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
 #updates LI {color: #999;font-size: 16px;}
 #default, #disabled { position: absolute;
     display: inline-block;
-    color: #505050;
+    color: #555;
     font-weight: 400;
     font-size: 18px;
-    background-color: #ffffff;
-    border: 1px solid #737373;
+    background-color: #1a1a1a;
+    border: 1px solid #1a1a1a;
     padding: 0px 7px;
     border-radius: 4px;
     left: -282px;
@@ -154,7 +154,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
 
 #notice {
     font-size: 21px;
-    color: #BD0E0E;
+    color: #BF0f24;
     font-weight: 400;
     margin-bottom: 7px;
     text-align: center;
@@ -183,19 +183,19 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
     padding: 5px;
     padding-left: 6px;
     background: none;
-    background-color: #124080;
+    background-color: #11a9ed;
     color: #fff;
     font: 21px/24px Arial, sans-serif;
 }
 
 .btn {
-    background: #124080;
+    background: #11a9ed;
     border-radius: 7px;
     font-family: lato;
     color: #fff;
     font-size: 21px;
     padding: 10px 20px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #11a9ed;
     width: 98%;
     font-weight: 300;
 }
@@ -209,7 +209,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
     background-image: linear-gradient(to bottom, #fcfcfc, #e6e6e6);
     border-radius: 7px;
     font-family: lato;
-    color: #696969;
+    color: #555;
     font-size: 21px;
     padding: 10px 20px 10px 20px;
     border: solid #e0e0e0 1px;
@@ -224,9 +224,9 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
 
 .resetBtn {
     border: 0px;
-    background: none;
+    background: #11a9ed;
     font-size: 16px;
-    color: #B3B3B3;
+    color: #555;
     margin-bottom: 30px;
 }
 
@@ -234,7 +234,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
     border: 0px;
     background: none;
     font-size: 18px;
-    color: #B3B3B3;
+    color: #555;
     margin-bottom: 30px;
     text-decoration: none;
     padding-left: 10px;
@@ -255,7 +255,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
 
 
 .button-danger {
-    background: #ed2323;
+    background: #bf0f24;
     background-image: -webkit-linear-gradient(top, #ed2323, #a10000);
     background-image: -moz-linear-gradient(top, #ed2323, #a10000);
     background-image: -ms-linear-gradient(top, #ed2323, #a10000);
@@ -263,7 +263,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
     background-image: linear-gradient(to bottom, #ed2323, #a10000);
     border-radius: 7px;
     font-family: lato;
-    color: #fff;
+    color: #888;
     font-size: 21px;
     padding: 10px 20px 10px 20px;
     border: solid #a10000 1px;
@@ -306,10 +306,10 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
     body {
             height: 100%;
             margin: 0;
-            background: #f5f5f5;
+            background: #1a1a1a;
             }
-    form {background-color: transparent; padding:15px; border:0px; background-color:transparent}
-select {-webkit-appearance: none; -moz-appearance: none; appearance: none;padding:7px; background: url(images/arrow.png) no-repeat right 10px center; background-color:#fff; color:#6B6B6B}
+    form {background-color: #1a1a1a; padding:15px; border:0px; background-color:#1a1a1a}
+select {-webkit-appearance: none; -moz-appearance: none; appearance: none;padding:7px; background: url(images/arrow.png) no-repeat right 10px center; background-color:#1a1a1a; color:#888}
 
     #createAccount,#signIn, #requestPinReset  {margin-top: 0px}
 
@@ -374,7 +374,7 @@ select {-webkit-appearance: none; -moz-appearance: none; appearance: none;paddin
 }
 
 body {
-    background-color: transparent;
+    background-color: #1a1a1a;
 }
 
 .loader {
