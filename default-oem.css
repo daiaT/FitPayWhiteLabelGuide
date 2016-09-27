@@ -378,7 +378,39 @@ body {
 }
 
 .loader {
-    background: url(images/loader3.gif) no-repeat center;
+    background: url(images/rainbowLoad.gif) center;
     height: 400px;
     margin-top: 35%;
+}
+
+.walletAccess-page,
+.walletAccess-title {
+    background: #1a1a1a;
+}
+
+.walletAccess-title {
+    color: #e6ff84;
+}
+
+.pin-pad {
+    width: 160px;
+    margin: 0 auto;
+}
+
+.pin-pad li {
+    margin-bottom: 40px;
+}
+
+.pin-pad-erase:link {
+    color: #baf792;
+}
+
+a.pin-pad-key {
+    border-color: #11a9ed;
+    line-height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    color: #db65cc;
+    font-weight: bold;
+    margin: 5 auto;
 }
